@@ -1,0 +1,43 @@
+*{
+    margin: 0;padding: 0;
+}
+.mainHeading{
+    margin-top: 10%;
+    text-align: center;
+}
+
+.sunContainer{
+    margin: 0% 25%;
+    padding: 5px;
+    width: 50%;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(214, 205, 205);
+    /* border: 1px solid rgb(12, 12, 12); */
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.itemInput{
+    width: 350px;
+    height:35px;
+    background-color: rgb(184, 209, 184);
+    /* color:red; */
+    border: 1px solid rgb(20, 17, 17);
+    border-radius:8px
+}
+.addBtn{
+    width: 30px;
+    margin-left: 5px;
+    height:35px;
+    font-size: larger;
+    background-color: rgb(245, 209, 3);
+    border: 1px solid rgb(20, 17, 17);
+    border-radius:5px
+}
